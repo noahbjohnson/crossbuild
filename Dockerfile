@@ -1,5 +1,5 @@
 FROM buildpack-deps:stretch-curl
-MAINTAINER Manfred Touron <m@42.am> (https://github.com/moul)
+MAINTAINER Noah B Johnson <noah@noahbjohnson.net> (https://github.com/noahbjohnson)
 
 # Configure the Go environment, since it's not going to change
 ENV PATH   /usr/local/go/bin:$PATH
