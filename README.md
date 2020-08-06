@@ -8,7 +8,7 @@
 This is a multiarch Docker build environment image.
 You can use this image to produce binaries for multiple architectures.
 
-Heavily modified with additional code from <https://github.com/karalabe/xgo>. Licensed MIT © 2014 Péter Szilágyi <peterke@gmail.com>
+Heavily modified to cross-compile Golang with additional code from <https://github.com/karalabe/xgo>. Licensed MIT © 2014 Péter Szilágyi <peterke@gmail.com>
 
 ## Supported targets
 

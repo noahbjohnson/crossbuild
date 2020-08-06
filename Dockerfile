@@ -245,8 +245,8 @@ RUN $BOOTSTRAP_PURE
 # Image metadata
 # crossbuild is original entrypoint
 # TODO: create CLI handler go script to support both
-ENTRYPOINT ["/usr/bin/crossbuild"]
-#ENTRYPOINT ["/usr/bin/gobuild"]
+#ENTRYPOINT ["/usr/bin/crossbuild"]
+ENTRYPOINT ["/usr/bin/gobuild"]
 CMD ["/bin/bash"]
 WORKDIR /workdir
 COPY assets/gobuild /usr/bin/gobuild
